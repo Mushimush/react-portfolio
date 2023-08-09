@@ -31,7 +31,7 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
         className={`${
           selectedPage === "contact" ? selectedStyles : "bg-dark-grey"
         } w-3 h-3 rounded-full`}
-        onClick={() => setSelectedPage("home")}
+        onClick={() => setSelectedPage("contact")}
       />
     </div>
   );
