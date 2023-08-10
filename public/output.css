@@ -632,10 +632,6 @@ video {
   z-index: 40;
 }
 
-.z-\[-1\]{
-  z-index: -1;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -649,10 +645,6 @@ video {
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
 }
 
 .mb-5{
@@ -687,10 +679,6 @@ video {
   margin-top: 4rem;
 }
 
-.mt-3{
-  margin-top: 0.75rem;
-}
-
 .mt-32{
   margin-top: 8rem;
 }
@@ -723,24 +711,24 @@ video {
   height: 0.75rem;
 }
 
-.h-32{
-  height: 8rem;
+.h-64{
+  height: 16rem;
 }
 
 .h-8{
   height: 2rem;
 }
 
+.h-\[100px\]{
+  height: 100px;
+}
+
+.h-\[50px\]{
+  height: 50px;
+}
+
 .h-full{
   height: 100%;
-}
-
-.h-64{
-  height: 16rem;
-}
-
-.max-h-\[400px\]{
-  max-height: 400px;
 }
 
 .w-1\/2{
@@ -749,6 +737,10 @@ video {
 
 .w-1\/3{
   width: 33.333333%;
+}
+
+.w-10\/12{
+  width: 83.333333%;
 }
 
 .w-3{
@@ -767,16 +759,12 @@ video {
   width: 300px;
 }
 
+.w-\[50px\]{
+  width: 50px;
+}
+
 .w-full{
   width: 100%;
-}
-
-.w-10{
-  width: 2.5rem;
-}
-
-.w-10\/12{
-  width: 83.333333%;
 }
 
 .max-w-\[400px\]{
@@ -793,6 +781,10 @@ video {
 
 .basis-3\/5{
   flex-basis: 60%;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .resize{
@@ -827,8 +819,8 @@ video {
   gap: 4rem;
 }
 
-.gap-32{
-  gap: 8rem;
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-6{
@@ -837,6 +829,10 @@ video {
 
 .gap-7{
   gap: 1.75rem;
+}
+
+.rounded-\[50\%\]{
+  border-radius: 50%;
 }
 
 .rounded-full{
@@ -886,8 +882,23 @@ video {
   background-image: linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%);
 }
 
-.p-10{
-  padding: 2.5rem;
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-center{
+  -o-object-position: center;
+     object-position: center;
+}
+
+.p-1{
+  padding: 0.25rem;
 }
 
 .p-12{
@@ -1001,11 +1012,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
@@ -1014,6 +1020,11 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -1078,11 +1089,6 @@ body,
   position: absolute;
 }
 
-.before\:-left-10::before{
-  content: var(--tw-content);
-  left: -2.5rem;
-}
-
 .before\:-left-20::before{
   content: var(--tw-content);
   left: -5rem;
@@ -1091,11 +1097,6 @@ body,
 .before\:-left-\[25px\]::before{
   content: var(--tw-content);
   left: -25px;
-}
-
-.before\:-top-10::before{
-  content: var(--tw-content);
-  top: -2.5rem;
 }
 
 .before\:-top-20::before{
@@ -1269,10 +1270,6 @@ body,
 
   .md\:w-2\/5{
     width: 40%;
-  }
-
-  .md\:w-3\/4{
-    width: 75%;
   }
 
   .md\:max-w-\[600px\]{

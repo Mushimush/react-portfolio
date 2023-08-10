@@ -7,6 +7,8 @@ import Contact from "./scenes/Contact"
 import Footer from "./scenes/Footer"
 import DotGroup from "./scenes/DotGroup";
 import LineGradient from "./components/LineGradient";
+import SkillsCard from "./components/SkillsCard";
+
 import MySkills from "./scenes/MySkills";
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -37,7 +39,7 @@ function App() {
         <Landing setSelectedPage={setSelectedPage}/>
       </div>
       <LineGradient/>
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto ">
         <MySkills/>
       </div>
       <LineGradient/>

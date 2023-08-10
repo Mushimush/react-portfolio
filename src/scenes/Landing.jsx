@@ -53,8 +53,7 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis, soluta.
+            Hello, thank you for visiting my page!
           </p>
         </motion.div>
         {/* CALL TO ACTION */}
