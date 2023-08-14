@@ -36,6 +36,11 @@ const frontend = [
     title: "React",
     icon: "src/assets/skills/reactjs.png",
   },
+  {
+    id: "redux",
+    title: "Redux",
+    icon: "src/assets/skills/Redux.png"
+  }
 ];
 
 const backend = [
@@ -140,6 +145,13 @@ const projects = [
     demo_link: "",
   },
   {
+    name: "Sociapedia",
+    description: "Social Media site built with MERN stack",
+    image: "src/assets/projects/Socialpedia.png",
+    source_code: "https://github.com/Mushimush/zomp",
+    demo_link: ""
+  },
+  {
     name: "Remote Monitoring of Health Signs",
     description:
       "This project aims to develop a system that can estimate three critical vital signs: Heart Rate, Respiration Rate, and Blood Pressure, with high accuracy and reliability.",
@@ -167,7 +179,7 @@ const projects = [
     name: "Face Recognition",
     description: "Face Recogition by training a Neural Net",
     image: "src/assets/projects/Facial Recognition Man Header.webp",
-    source_code: "https://github.com/Mushimush/Track-Kitv2",
+    source_code: "https://github.com/Mushimush/face_recognition",
     demo_link: "",
   },
   { name: "NBA sports Booking System",
