@@ -1,5 +1,3 @@
-import { m } from "framer-motion";
-
 const frontend = [
   {
     id: "html",
@@ -39,8 +37,8 @@ const frontend = [
   {
     id: "redux",
     title: "Redux",
-    icon: "/assets/skills/Redux.png"
-  }
+    icon: "/assets/skills/Redux.png",
+  },
 ];
 
 const backend = [
@@ -149,7 +147,14 @@ const projects = [
     description: "Social Media site built with MERN stack",
     image: "/assets/projects/Socialpedia.png",
     source_code: "https://github.com/Mushimush/zomp",
-    demo_link: ""
+    demo_link: "",
+  },
+  {
+    name: "Portfolio",
+    description: "My Portfolio built with React",
+    image: "/assets/projects/PortfolioCrop.png",
+    source_code: "https://github.com/Mushimush/react-portfolio",
+    demo_link: "",
   },
   {
     name: "Remote Monitoring of Health Signs",
@@ -182,12 +187,21 @@ const projects = [
     source_code: "https://github.com/Mushimush/face_recognition",
     demo_link: "",
   },
-  { name: "NBA sports Booking System",
-    description: 'An NBA sports boooking system designed implemented in SQL',
-    image: '/assets/projects/nba.webp',
-    source_code: 'https://drive.google.com/file/d/1iJ5O4AQbrGHCV_xs8Qp7UANiY9YwXTyZ/view?usp=sharing',
-    demo_link: ''
-},
+  {
+    name: "NBA sports Booking System",
+    description: "An NBA sports boooking system designed implemented in SQL",
+    image: "/assets/projects/nba.webp",
+    source_code:
+      "https://drive.google.com/file/d/1iJ5O4AQbrGHCV_xs8Qp7UANiY9YwXTyZ/view?usp=sharing",
+    demo_link: "",
+  },
+  {
+    name: "Coming soon ",
+    description: "Coming soon ",
+    image: "/assets/projects/comingsoon.png",
+    source_code: "",
+    demo_link: "",
+  },
 ];
 
 export {

@@ -1,6 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const Contact = () => {
   const {
@@ -14,6 +15,8 @@ const Contact = () => {
     const isValid = await trigger();
     if (!isValid) {
       e.preventDefault();
+    } else {
+      document.getElementById("contactform").reset()
     }
   };
 
@@ -69,9 +72,10 @@ const Contact = () => {
           className="basis-1/2 mt-10 md:mt-0"
         >
           <form
+            id="contactform"
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+            action="https://formsubmit.co/399717db3a17e326a69f40efefb86696"
             method="POST"
           >
             <input

@@ -52,8 +52,8 @@ const Landing = ({ setSelectedPage }) => {
               Tan
             </span>
           </p>
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Hello, thank you for visiting my page!
+          <p className="mt-10 mb-7 text-center md:text-start text-xl">
+            Hello, I'm a recent university Graduate, looking for Fullstack roles. <br/> I am able to work and debug independently. 
           </p>
         </motion.div>
         {/* CALL TO ACTION */}
