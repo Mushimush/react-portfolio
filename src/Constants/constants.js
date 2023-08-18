@@ -150,6 +150,13 @@ const projects = [
     demo_link: "",
   },
   {
+    name: "RoboPunksNFT",
+    description: "Full Mint Website",
+    image: "/assets/projects/RoboPunks.png",
+    source_code: "https://github.com/Mushimush/full-mint-website",
+    demo_link: "",
+  },
+  {
     name: "Portfolio",
     description: "My Portfolio built with React",
     image: "/assets/projects/PortfolioCrop.png",
@@ -195,13 +202,13 @@ const projects = [
       "https://drive.google.com/file/d/1iJ5O4AQbrGHCV_xs8Qp7UANiY9YwXTyZ/view?usp=sharing",
     demo_link: "",
   },
-  {
-    name: "Coming soon ",
-    description: "Coming soon ",
-    image: "/assets/projects/comingsoon.png",
-    source_code: "",
-    demo_link: "",
-  },
+  // {
+  //   name: "Coming soon ",
+  //   description: "Coming soon ",
+  //   image: "/assets/projects/comingsoon.png",
+  //   source_code: "",
+  //   demo_link: "",
+  // },
 ];
 
 export {
